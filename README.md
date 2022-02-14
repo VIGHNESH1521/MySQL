@@ -101,3 +101,12 @@ A relational database defines database relationships in the form of tables. The 
 When you execute a statement, if errors, warnings, or notes occur, you can use the SHOW WARNINGS diagnostic statement to display detailed information.
 
       SHOW WARNINGS;
+
+# How to load the sample database
+
+      source C:\Users\VIGHNESH SUDHAKAR\Desktop\MySQL\mysqlsampledatabase.sql
+      
+
+# Use the SHOW DATABASES command to list all databases in the current server
+
+    show databases;
