@@ -44,7 +44,6 @@ A relational database defines database relationships in the form of tables. The 
 
 ## Some of The Most Important SQL Commands
 
-'''sql
 - SELECT - extracts data from a database
 - UPDATE - updates data in a database
 - DELETE - deletes data from a database
@@ -56,4 +55,3 @@ A relational database defines database relationships in the form of tables. The 
 - DROP TABLE - deletes a table
 - CREATE INDEX - creates an index (search key)
 - DROP INDEX - deletes an index
-'''
