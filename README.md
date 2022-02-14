@@ -56,6 +56,40 @@ A relational database defines database relationships in the form of tables. The 
 - CREATE INDEX - creates an index (search key)
 - DROP INDEX - deletes an index
 
+
+# Start Using MySQL
+
+    use mysql;
+    
 # Create database
 
-    mysql> CREATE DATABASE testDB;
+    CREATE DATABASE testDB;
+    
+ # Create Table
+ 
+      CREATE TABLE Persons (
+    ->     PersonID int,
+    ->     LastName varchar(255),
+    ->     FirstName varchar(255),
+    ->     Address varchar(255),
+    ->     City varchar(255)
+    -> );
+    
+ # Viewing Table Details
+    
+        describe Persons;
+        
+ # Inserting Values to the table created
+ 
+      insert into Persons(PersonID, LastName, FirstName, Address, City)
+    -> VALUES(124, 'K U', 'SUDEEP', 'PEENYA', 'BANGALORE'),
+    -> (125, 'C', 'YASHAS', 'MALLESHWARAM', 'BANGALORE'),
+    -> (126, 'K R', 'SUMAN', 'YELAHANKA', 'BANGALORE'),
+    -> (127, 'K', 'KISHORE', 'KURUBARAHALLI', 'BANGALORE'),
+    -> (128, 'B N', 'SAGAR', 'KURUBARAHALLI', 'BANGALORE');
+ 
+ # Viewing the table
+     
+     select * from Persons;
+ 
+ 
