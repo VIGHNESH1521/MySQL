@@ -65,7 +65,7 @@ A relational database defines database relationships in the form of tables. The 
 
     CREATE DATABASE testDB;
     
- # Create Table
+# Create Table
  
       CREATE TABLE Persons (
     ->     PersonID int,
@@ -75,11 +75,11 @@ A relational database defines database relationships in the form of tables. The 
     ->     City varchar(255)
     -> );
     
- # Viewing Table Details
+# Viewing Table Details
     
         describe Persons;
         
- # Inserting Values to the table created
+# Inserting Values to the table created
  
       insert into Persons(PersonID, LastName, FirstName, Address, City)
     -> VALUES(124, 'K U', 'SUDEEP', 'PEENYA', 'BANGALORE'),
@@ -88,11 +88,16 @@ A relational database defines database relationships in the form of tables. The 
     -> (127, 'K', 'KISHORE', 'KURUBARAHALLI', 'BANGALORE'),
     -> (128, 'B N', 'SAGAR', 'KURUBARAHALLI', 'BANGALORE');
  
- # Viewing the table
+# Viewing the table
      
      select * from Persons;
   
-  # Drop the table
+# Drop the table
   
       DROP TABLE Persons;
  
+# MySQL SHOW WARNINGS statement 
+
+When you execute a statement, if errors, warnings, or notes occur, you can use the SHOW WARNINGS diagnostic statement to display detailed information.
+
+      SHOW WARNINGS;
