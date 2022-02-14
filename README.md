@@ -1,4 +1,4 @@
-# MySQL
+## MySQL
 
 ![image](https://user-images.githubusercontent.com/90493668/153834562-fba49b13-0500-4a75-b1a3-385fe09f946a.png) ![image](https://user-images.githubusercontent.com/90493668/153834640-5cbc3200-d630-4791-a89c-1ecede70a348.png)
 
