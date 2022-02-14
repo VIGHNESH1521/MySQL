@@ -104,6 +104,8 @@ When you execute a statement, if errors, warnings, or notes occur, you can use t
 
 # How to load the sample database
 
+The required database has been uploaded
+
       source C:\Users\VIGHNESH SUDHAKAR\Desktop\MySQL\mysqlsampledatabase.sql
       
 
