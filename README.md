@@ -91,5 +91,8 @@ A relational database defines database relationships in the form of tables. The 
  # Viewing the table
      
      select * from Persons;
- 
+  
+  # Drop the table
+  
+      DROP TABLE Persons;
  
