@@ -58,6 +58,4 @@ A relational database defines database relationships in the form of tables. The 
 
 # Create database
 
-'''mysql
-CREATE DATABASE testDB;
-'''
+mysql> CREATE DATABASE testDB;
