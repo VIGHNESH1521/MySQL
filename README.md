@@ -55,3 +55,8 @@ A relational database defines database relationships in the form of tables. The 
 - DROP TABLE - deletes a table
 - CREATE INDEX - creates an index (search key)
 - DROP INDEX - deletes an index
+
+# Create database
+'''sql
+CREATE DATABASE testDB;
+'''
