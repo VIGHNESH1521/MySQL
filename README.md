@@ -57,6 +57,7 @@ A relational database defines database relationships in the form of tables. The 
 - DROP INDEX - deletes an index
 
 # Create database
-'''sql
+
+'''mysql
 CREATE DATABASE testDB;
 '''
