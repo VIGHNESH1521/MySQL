@@ -41,3 +41,19 @@ MySQL is ideal for both small and large applications.
 ## What is a Relational Database?
 
 A relational database defines database relationships in the form of tables. The tables are related to each other - based on data common to each.
+
+## Some of The Most Important SQL Commands
+
+'''sql
+- SELECT - extracts data from a database
+- UPDATE - updates data in a database
+- DELETE - deletes data from a database
+- INSERT INTO - inserts new data into a database
+- CREATE DATABASE - creates a new database
+- ALTER DATABASE - modifies a database
+- CREATE TABLE - creates a new table
+- ALTER TABLE - modifies a table
+- DROP TABLE - deletes a table
+- CREATE INDEX - creates an index (search key)
+- DROP INDEX - deletes an index
+'''
